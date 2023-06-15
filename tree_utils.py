@@ -216,8 +216,6 @@ def get_node_classes (inner_tree, index, umbral, negative_class, positive_class)
         
     return result
 
-
-
 def prune_index(inner_tree, index, umbral):
     clases_hojas = get_node_classes(inner_tree, index, umbral, 'NO', 'SI')
     #print(index, clases_hojas)
